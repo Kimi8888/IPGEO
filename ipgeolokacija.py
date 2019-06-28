@@ -45,5 +45,5 @@ def job ():
 if __name__ == '__main__':
     while True:
         job()
-        time.sleep(58)
+        time.sleep(60)
     
