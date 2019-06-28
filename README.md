@@ -1,2 +1,2 @@
 # IPGEO
-Skripta koji ce da sakuplja geoip info
+Skripta koja  sakuplja geoip info
