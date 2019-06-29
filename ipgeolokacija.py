@@ -44,6 +44,7 @@ def job ():
     con.close()
 if __name__ == '__main__':
     while True:
+        starttime=time.time()
         job()
-        time.sleep(60)
+        time.sleep(60.0 - ((time.time() - starttime) % 60.0))
     
